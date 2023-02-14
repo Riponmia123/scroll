@@ -38,3 +38,26 @@
 .box12{
     grid-column: 1 / 4;
 }
+
+/* images class start */
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+    grid-gap: 3px;
+}
+.container img{
+    height: 100%;
+    width: 100%;
+}
+.silon{
+    grid-column: auto / span 2;
+}
+.big{
+    grid-column: auto / span 2;
+}
+.ripon{
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+}
+
+/* images class end */
